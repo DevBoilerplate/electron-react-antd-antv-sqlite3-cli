@@ -27,7 +27,9 @@
     "react:build": "react-app-rewired build",
     "react:test": "react-app-rewired test",
     "react:eject": "react-scripts eject",
-    "ele:dev": "nodemon --watch main.js --exec concurrently \"wait-on http://localhost:3000 && electron .\" \"cross-env BROWSER=none yarn run react:dev\""
+    "ele:dev": "nodemon --watch main.js --exec concurrently \"wait-on http://localhost:3000 && electron .\" \"cross-env BROWSER=none yarn run react:dev\"",
+    "sqlite3:ia32": "cd ./node_modules/sqlite3 && node-gyp rebuild --target=7.1.11 --arch=ia32 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v7.1.11-win32-ia32",
+    "sqlite3:x64": "cd ./node_modules/sqlite3 && node-gyp rebuild --target=7.1.11 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v7.1.11-darwin-x64"
   },
   "eslintConfig": {
     "extends": "react-app"

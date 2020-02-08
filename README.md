@@ -71,10 +71,10 @@ cd node_modules/sqlite3
 
 ```shell
 # 32位操作系统
-node-gyp rebuild --target=7.1.11 --arch=ia32 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v7.1.11-win32-ia32
+yarn run sqlite3:ia32
 
 # 64位操作系统
-node-gyp rebuild --target=7.1.11 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v7.1.11-darwin-x64
+yarn run sqlite3:x64
 ```
 
 * 验证安装
@@ -94,7 +94,9 @@ yarn run ele:dev
         "react:build": "构建react的产物",
         "react:test":  "react测试",
         "react:eject": "react-scripts eject",
-        "ele:dev": "启动electron开发预览"
+        "ele:dev": "启动electron开发预览",
+        "sqlite3:ia32": "编译sqlite3为32位环境",
+        "sqlite3:x64": "编译sqlite3为64位环境"
         # 下面详述包及自定义配置，目前只针对electron的开发做了脚本
     ```
 
@@ -103,6 +105,8 @@ yarn run ele:dev
         rs
         # Ctrl + c后输入y即可退出命令行启动预览环境
     ```
+
+    具体命令解析:
 
     ```shell
     node-gyp rebuild --target=7.1.11 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v7.1.11-darwin-x64
