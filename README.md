@@ -104,6 +104,16 @@ yarn run ele:dev
         # Ctrl + c后输入y即可退出命令行启动预览环境
     ```
 
+    ```shell
+    node-gyp rebuild --target=7.1.11 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v7.1.11-darwin-x64
+
+    # --target为electron的版本
+    # --arch为系统架构 ia32/x64
+    # --target_platform为Windows平台 win32/darwin
+    # --module_name为模块名
+    # --module_path为生成模块路径，命令规范为：electron-electron版本-平台-架构
+    ```
+
 2. 项目的默认包管理
 
     本项目默认使用`yarn`进行包管理
