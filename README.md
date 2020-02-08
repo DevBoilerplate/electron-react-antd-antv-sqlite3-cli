@@ -43,10 +43,10 @@ npm install windows-build-tools -g
 
 ```shell
 # github
-git clone https://github.com/HerbertHe/electron-react-antd-antv-cli.git
+git clone https://github.com/HerbertHe/electron-react-antd-antv-sqlite3-cli.git
 
 # gitee
-git clone https://gitee.com/HerbertHe/electron-react-antd-antv-cli.git
+git clone https://gitee.com/HerbertHe/electron-react-antd-antv-sqlite3-cli.git
 ```
 
 * 进入仓库
