@@ -37,6 +37,10 @@ npm install windows-build-tools -g
 
 > 上面`visual C++ Build Tools`可以参考这个同学的文章 [Microsoft Visual C++ Build Tools下载/解决Visual C++ 14.0 is required问题](https://blog.csdn.net/antizheng/article/details/88633912)，点击这直接下载安装 [Visual C++ Build Tools 2015](http://go.microsoft.com/fwlink/?LinkId=691126)，这个都是Windows环境下的问题，`electron-rebuild`这个依赖在Windows10下编译`sqlite3`是报错的
 
+## 更新记录
+
+> 请参考GitHub: [HerbertHe/electron-react-antd-antv-cli](https://github.com/HerbertHe/electron-react-antd-antv-cli), Gitee: [HerbertHe/electron-react-antd-antv-cli](https://gitee.com/HerbertHe/electron-react-antd-antv-cli)
+
 ## 快速使用
 
 * `clone` 仓库
@@ -49,14 +53,14 @@ git clone https://github.com/HerbertHe/electron-react-antd-antv-sqlite3-cli.git
 git clone https://gitee.com/HerbertHe/electron-react-antd-antv-sqlite3-cli.git
 ```
 
-* 进入仓库
+> 已提供开发工具`Edever`做更便捷的下载管理，请参考文档使用Gitee: [HerbertHe/Edever](https://gitee.com/HerbertHe/Edever), GitHub: [HerbertHe/Edever](https://github.com/HerbertHe/Edever)
 
-* 删掉node_modules目录！
+* 进入仓库
 
 * 下载依赖，会花费一些时间请耐心等待
 
 ```shell
-yarn install
+yarn
 ```
 
 * 命令行打开进入sqlite3所在的目录 `node_modules/sqlite3`
