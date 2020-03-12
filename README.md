@@ -53,14 +53,14 @@ git clone https://github.com/HerbertHe/electron-react-antd-antv-sqlite3-cli.git
 git clone https://gitee.com/HerbertHe/electron-react-antd-antv-sqlite3-cli.git
 ```
 
-* 进入仓库
+> 已提供开发工具`Edever`做更便捷的下载管理，请参考文档使用Gitee: [HerbertHe/Edever](https://gitee.com/HerbertHe/Edever), GitHub: [HerbertHe/Edever](https://github.com/HerbertHe/Edever)
 
-* 删掉node_modules目录！
+* 进入仓库
 
 * 下载依赖，会花费一些时间请耐心等待
 
 ```shell
-yarn install
+yarn
 ```
 
 * 命令行打开进入sqlite3所在的目录 `node_modules/sqlite3`
