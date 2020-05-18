@@ -1,5 +1,7 @@
 # electron-react-antd-antv-sqlite3-cli
 
+> 已废弃！！本仓库没有精力再维护，请转到[Eraac](https://github.com/HerbertHe/electron-react-antd-antv-cli)或[Eraatc](https://github.com/HerbertHe/electron-react-antd-antv-ts-cli)使用，本仓库作为集成sqlite3的参考将继续保留
+
 一个集成electron、react、antd、antv、sqlite3的开发脚手架，便于快速搭建基于react开发的electron桌面应用，本项目只针对Windows环境
 
 > 该项目是集成sqlite3数据库的`electron-react-antd-antv-cli`的衍生项目，在实际开发中遇到了自带打包数据库的问题和`sqlite3`包不能直接使用的问题，考虑到多平台编译的缘故，把项目抽离开。
